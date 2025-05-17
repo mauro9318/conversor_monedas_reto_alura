@@ -10,7 +10,7 @@ import java.net.http.HttpResponse;
 
 public class ApiDivisas {
 
-    private static final String API_KEY = "5218c5b28a23cd05b9b2466b";  // Reemplaza con tu clave real
+    private static final String API_KEY = "API+KEY";  // Reemplaza con tu clave real
 
     public static double obtenerTasa(String from, String to) throws IOException, InterruptedException {
         String url = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/pair/" + from + "/" + to;
